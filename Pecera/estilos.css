@@ -1,0 +1,156 @@
+body {
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("Imagenes/Mar.jpg");
+    background-size: 100vw 100vh;
+}
+
+#Pez1 {
+    position: absolute;
+    right: -10%;
+    top: 60%;
+    -webkit-animation: movimiento 7s linear infinite;
+    -webkit-animation-delay: 0s;
+}
+
+@-webkit-keyframes movimiento {
+    to {right:110%;}
+}
+
+#Pez2 {
+    position: absolute;
+    left: -10%;
+    top: 40%;
+    -webkit-animation: movimiento3 9s linear infinite;
+    -webkit-animation-delay: 0s;
+}
+
+@-webkit-keyframes movimiento3 {
+    to {left:110%;}
+}
+
+#Tiburon {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+#Cangrejo {
+    position: absolute;
+    right: -15%;
+    top: 78%;
+    -webkit-animation: movimiento4 11s linear infinite;
+    -webkit-animation-delay: 0s;
+}
+
+@-webkit-keyframes movimiento4 {
+    to {right:110%;}
+}
+
+#Burbuja {
+    position: absolute;
+    top: 100%;
+    -webkit-animation: movimiento2 4s linear infinite;
+    -webkit-animation-delay: 0s;
+}
+
+@-webkit-keyframes movimiento2 {
+    to {top:-10%;}
+}
+
+#Pulpo {
+    position: absolute;
+    top: 5%;
+    right: 83%;
+}
+
+
+#Burbuja2 {
+    position: absolute;
+    top: 100%;
+    right: 40%;
+    -webkit-animation: movimiento5 5s linear infinite;
+    -webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes movimiento5 {
+    to {top:-10%;}
+}
+
+#Burbuja3 {
+    position: absolute;
+    top: 100%;
+    right: 20%;
+    -webkit-animation: movimiento6 3s linear infinite;
+    -webkit-animation-delay: 3s;
+}
+
+@-webkit-keyframes movimiento6 {
+    to {top:-10%;}
+}
+
+#Burbuja4 {
+    position: absolute;
+    top: 100%;
+    right: 60%;
+    -webkit-animation: movimiento7 6s linear infinite;
+    -webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes movimiento7 {
+    to {top:-10%;}
+}
+
+#Burbuja5 {
+    position: absolute;
+    top: 100%;
+    left: 90%;
+    -webkit-animation: movimiento8 7s linear infinite;
+    -webkit-animation-delay: 7s;
+}
+
+@-webkit-keyframes movimiento8 {
+    to {top:-10%;}
+}
+
+#Alga1 {
+    position: absolute;
+    top: 85%;
+}
+
+#Alga2 {
+    position: absolute;
+    top: 85%;
+    right: 77%;
+}
+
+#Alga3 {
+    position: absolute;
+    top: 85%;
+    right: 60%;
+}
+
+#Alga4 {
+    position: absolute;
+    top: 85%;
+    right: 40%;
+}
+
+#Alga5 {
+    position: absolute;
+    top: 85%;
+    right: 20%;
+}
+
+#Alga6 {
+    position: absolute;
+    top: 85%;
+    right: 0%;
+}
+
+#Estrella {
+    position: absolute;
+    top: 84%;
+    left: 44%;
+}
