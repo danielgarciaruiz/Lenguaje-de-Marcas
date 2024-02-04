@@ -1,0 +1,33 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("../imagenes/casahomer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+#homer{
+    position: absolute;
+    left: -25%;
+    top: 60%;
+    -webkit-animation: movimiento 7s linear infinite;
+    -webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes movimiento{
+    to {left:110%;}
+}
+
+#rosquilla{
+    position: absolute;
+    left: -15%;
+    top: 58%;
+    -webkit-animation: movimiento2 7s linear infinite,giroros 2s linear infinite;
+}
+
+@-webkit-keyframes movimiento2{
+    to {left:110%;}
+}
+@-webkit-keyframes giroros{
+    to {-webkit-transform: rotate(360deg);}
+}
